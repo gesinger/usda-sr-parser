@@ -2,7 +2,8 @@ var commander = require('commander');
 
 commander
   .version('0.0.1')
-  .option('-d, --dir <dir>', 'Path to SR directory')
+  .option('-d, --sr-dir <dir>', 'Path to SR directory')
+  .option('-m, --mappings-file <file>', 'Path to mappings file')
   .parse(process.argv);
 
 if (!commander.dir) {
