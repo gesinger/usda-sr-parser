@@ -1,0 +1,29 @@
+{
+  "name": "usda-sr-parser",
+  "version": "0.0.1",
+  "author": "Garrett Singer <gesinger@gmail.com>",
+  "description": "A node.js script to parse the USDA's standard reference."
+  "contributors": [
+    {
+      "name": "Garrett Singer",
+      "email": "gesinger@gmail.com"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gesinger/usda-sr-parser.git"
+  },
+  "keywords": [
+    "usda",
+    "sr",
+    "nutrition",
+    "parser"
+  ],
+  "dependencies": {
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
