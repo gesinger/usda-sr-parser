@@ -21,7 +21,8 @@
     "parser"
   ],
   "dependencies": {
-    "commander": "2.1.x"
+    "commander": "2.1.x",
+    "async": "0.2.x"
   },
   "license": "MIT",
   "engines": {
