@@ -27,12 +27,18 @@ var DATA_DERIVATION_DESCRIPTION_FILE = srDir + '/DERIV_CD.txt';
 var SOURCES_OF_DATA_FILE             = srDir + '/DATA_SRC.txt';
 var SOURCES_OF_DATA_LINK_FILE        = srDir + '/DATSRCLN.txt';
 
-var foodDescriptions = srFileSplitter(
-  FOOD_DESCRIPTION_FILE,
-  ['ndbNumber', 'foodGroupCode', 'longDescription'],
-  0, function(err, data) {
+var FOOD_DESCRIPTIONS_COL_NAMES = [
+  'ndbNumber',
+  'foodGroupCode',
+  'longDescription'
+];
+
+var foodDescriptions = srFileSplitter({
+  filePath: FOOD_DESCRIPTION_FILE,
+  colNames: FOOD_DESCRIPTIONS_COL_NAMES,
+  colKeyNum: 0
+}, function(err, data) {
   if (err) throw err;
 
   console.log(util.inspect(data));
 });
-

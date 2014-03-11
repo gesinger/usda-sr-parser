@@ -1,6 +1,10 @@
 var fs = require('fs');
 
-module.exports = function(filePath, colNames, colKeyNum, cb) {
+module.exports = function(config, cb) {
+  var filePath = config.filePath;
+  var colNames = config.colNames;
+  var colKeyNum = config.colKeyNum;
+
   function cleanCol(dirtyCol) {
     return dirtyCol 
              .replace('\r', '')
