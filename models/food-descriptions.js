@@ -1,2 +1,0 @@
-var FoodDescriptions = function(foodDescriptionFile) {
-};
