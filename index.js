@@ -15,15 +15,14 @@ if (!srDir) {
 
 var FOOD_DESCRIPTION_FILE            = srDir + '/FOOD_DES.txt';
 var FOOD_GROUP_DESCRIPTION_FILE      = srDir + '/FD_GROUP.txt';
-var NUTRIENT_DATA_FILE               = srDir + '/NUT_DATA.txt';
-var WEIGHT_FILE                      = srDir + '/WEIGHT.txt';
-var FOOTNOTE_FILE                    = srDir + '/FOOTNOTE.txt';
-var FOOD_DESCRIPTION_FILE            = srDir + '/FOOD_DES.txt';
 var LANGUAL_FACTOR_FILE              = srDir + '/LANGUAL.txt';
 var LANGUAL_FACTORS_DESCRIPTION_FILE = srDir + '/LANGDESC.txt';
+var NUTRIENT_DATA_FILE               = srDir + '/NUT_DATA.txt';
 var NUTRIENT_DEFINITION_FILE         = srDir + '/NUTR_DEF.txt';
 var SOURCE_CODE_FILE                 = srDir + '/SRC_CD.txt';
 var DATA_DERIVATION_DESCRIPTION_FILE = srDir + '/DERIV_CD.txt';
+var WEIGHT_FILE                      = srDir + '/WEIGHT.txt';
+var FOOTNOTE_FILE                    = srDir + '/FOOTNOTE.txt';
 var SOURCES_OF_DATA_FILE             = srDir + '/DATA_SRC.txt';
 var SOURCES_OF_DATA_LINK_FILE        = srDir + '/DATSRCLN.txt';
 
@@ -47,6 +46,14 @@ var FOOD_GROUP_DESCRIPTION_COL_NAMES = [
   'foodGroupCode',
   'foodGroupDescription'
 ];
+var LANGUAL_FACTOR_COL_NAMES = [
+  'ndbNumber',
+  'factorCode'
+];
+var LANGUAL_FACTORS_DESCRIPTION_COL_NAMES = [
+  'factorCode',
+  'description'
+];
 
 var foodDescriptions = srFileSplitter({
   filePath: FOOD_DESCRIPTION_FILE,
@@ -61,6 +68,26 @@ var foodDescriptions = srFileSplitter({
 var foodGroupDescriptions = srFileSplitter({
   filePath: FOOD_GROUP_DESCRIPTION_FILE,
   colNames: FOOD_GROUP_DESCRIPTION_COL_NAMES,
+  colKeyNum: 0
+}, function(err, data) {
+  if (err) throw err;
+
+  console.log(util.inspect(data));
+});
+
+var langualFactors = srFileSplitter({
+  filePath: LANGUAL_FACTOR_FILE,
+  colNames: LANGUAL_FACTOR_COL_NAMES,
+  colKeyNum: 0
+}, function(err, data) {
+  if (err) throw err;
+
+  console.log(util.inspect(data));
+});
+
+var langualFactorDescriptions = srFileSplitter({
+  filePath: LANGUAL_FACTORS_DESCRIPTION_FILE,
+  colNames: LANGUAL_FACTORS_DESCRIPTION_COL_NAMES,
   colKeyNum: 0
 }, function(err, data) {
   if (err) throw err;
