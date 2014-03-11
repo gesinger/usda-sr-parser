@@ -13,6 +13,8 @@ if (!srDir) {
   commander.help();
 }
 
+// TODO _ other file
+
 var FOOD_DESCRIPTION_FILE            = srDir + '/FOOD_DES.txt';
 var FOOD_GROUP_DESCRIPTION_FILE      = srDir + '/FD_GROUP.txt';
 var LANGUAL_FACTOR_FILE              = srDir + '/LANGUAL.txt';
@@ -55,6 +57,24 @@ var LANGUAL_FACTORS_DESCRIPTION_COL_NAMES = [
   'description'
 ];
 var NUTRIENT_DATA_COL_NAMES = [
+  'ndbNumber',
+  'nutrientNumber',
+  'nutrientValue',
+  'numDataPoints',
+  'standardError',
+  'sourceCode',
+  'derivationCode',
+  'referenceNdbNumber',
+  'isFortification',
+  'numStudies',
+  'minValue',
+  'maxValue',
+  'degreesOfFreedom',
+  'lowErrorBound',
+  'upperErrorBound',
+  'statComments',
+  'lastModifiedDate',
+  'confidenceCode'
 ];
 var NUTIRENT_DEFINITION_COL_NAMES = [
 ];
@@ -105,6 +125,16 @@ var langualFactorDescriptions = srFileSplitter({
   filePath: LANGUAL_FACTORS_DESCRIPTION_FILE,
   colNames: LANGUAL_FACTORS_DESCRIPTION_COL_NAMES,
   colKeyNum: 0
+}, function(err, data) {
+  if (err) throw err;
+
+  console.log(util.inspect(data));
+});
+
+var nutrientData = srFileSplitter({
+  filePath: NUTRIENT_DATA_FILE,
+  colNames: NUTRIENT_DATA_COL_NAMES,
+  colKeyNum: 0 // TODO - broken
 }, function(err, data) {
   if (err) throw err;
 
