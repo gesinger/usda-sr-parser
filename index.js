@@ -54,6 +54,22 @@ var LANGUAL_FACTORS_DESCRIPTION_COL_NAMES = [
   'factorCode',
   'description'
 ];
+var NUTRIENT_DATA_COL_NAMES = [
+];
+var NUTIRENT_DEFINITION_COL_NAMES = [
+];
+var SOURCE_CODE_COL_NAMES = [
+];
+var DATA_DERIVATION_DESCRIPTION_COL_NAMES = [
+];
+var WEIGHT_COL_NAMES = [
+];
+var FOOTNOTE_COL_NAMES = [
+];
+var SOURCES_OF_DATA_COL_NAMES = [
+];
+var SOURCES_OF_DATA_LINK_COL_NAMES = [
+];
 
 var foodDescriptions = srFileSplitter({
   filePath: FOOD_DESCRIPTION_FILE,
