@@ -1,0 +1,2 @@
+var FoodDescriptions = function(foodDescriptionFile) {
+};
