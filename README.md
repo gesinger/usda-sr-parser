@@ -4,6 +4,11 @@ usda-sr-parser
 
 A node.js script to parse the USDA's standard reference.
 
+The script allows a bit of flexibility in how the results are returned. No
+matter what options are selected, a sqlite3 database is created. After the
+database is created, if --db-only isn't passed as an argument, then the JSON
+document will be created as well.
+
 ## Structure
 
 ```json
