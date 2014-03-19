@@ -23,7 +23,8 @@
   "dependencies": {
     "commander": "2.1.x",
     "async": "0.2.x",
-    "sqlite3": "2.2.x"
+    "sqlite3": "2.2.x",
+    "byline": "4.1.x"
   },
   "license": "MIT",
   "engines": {
