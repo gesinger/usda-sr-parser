@@ -15,5 +15,7 @@ if (!srDir) {
 }
 
 var creator = new SrCreator(srDir);
-
-var db = creator.generateSqliteDb(commander.sqliteDb);
+creator.generate(
+  commander.sqliteDb,
+  commander.esExport,
+  commander.mappingsFile);
