@@ -9,6 +9,16 @@ matter what options are selected, a sqlite3 database is created. After the
 database is created, if --db-only isn't passed as an argument, then the JSON
 document will be created as well.
 
+## TODO
+
+Create enable/disable transform streams that:
+- Take an object
+- Find the key needed
+- Query the DB for the rows
+- Append the rows to the object
+- pass the object along
+- Make a query to ES
+
 ## Structure
 
 ```json
