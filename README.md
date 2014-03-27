@@ -11,13 +11,11 @@ document will be created as well.
 
 ## TODO
 
-Create enable/disable transform streams that:
-- Take an object
-- Find the key needed
-- Query the DB for the rows
-- Append the rows to the object
-- pass the object along
-- Make a query to ES
+Logic:
+- For each DB, query for fields with key and add as object within food object
+- From each food, use the mappings file to convert the built object
+- Add on additional markup for ES query
+- Query ES
 
 ## Structure
 
