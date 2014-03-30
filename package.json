@@ -25,7 +25,8 @@
     "async": "0.2.x",
     "sqlite3": "2.2.x",
     "byline": "4.1.x",
-    "sqlite3-transactions": "0.0.x"
+    "sqlite3-transactions": "0.0.x",
+    "async": "0.6.x"
   },
   "license": "MIT",
   "engines": {
