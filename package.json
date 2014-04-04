@@ -27,7 +27,8 @@
     "byline": "4.1.x",
     "sqlite3-transactions": "0.0.x",
     "async": "0.6.x",
-    "sequelize": "2.0.x"
+    "sequelize": "2.0.x",
+    "lodash": "2.4.x"
   },
   "license": "MIT",
   "engines": {
