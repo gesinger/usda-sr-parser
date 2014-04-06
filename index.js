@@ -1,5 +1,5 @@
 var commander = require('commander');
-var SrCreator = require('./lib/sr-creator');
+var creator = require('./lib/creator');
 
 commander
   .version('0.0.1')
@@ -15,7 +15,7 @@ if (!srDir) {
   commander.help();
 }
 
-var creator = new SrCreator(srDir);
+var creator = new creator(srDir);
 creator.generate(
   commander.sqliteDb,
   commander.reuseDb,
