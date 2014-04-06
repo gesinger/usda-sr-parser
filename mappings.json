@@ -1,21 +1,28 @@
 {
-  FOOD_DES: {
-    name: 'foodDescription',
-    columns: {
-      NDB_No: 'ndbNumber',
-      FdGrp_Cd: 'foodGroupCode',
-      Long_Desc: 'longDescription',
-      Shrt_Desc: 'shortDescription',
-      ComName: 'commonName',
-      ManufacName: 'manufacturerName',
-      Survey: 'isSurveyAvailable',
-      Ref_desc: 'refuseDescription',
-      Refuse: 'refusePercentage',
-      SciName: 'scientificName',
-      N_Factor: 'nitrogenFactor',
-      Pro_Factor: 'proteinFactor',
-      Fat_Factor: 'fatFactor',
-      CHO_Factor: 'carbFactor
+  "FOOD_DES": {
+    "name": "foodDescription",
+    "columns": {
+      "NDB_No": "ndbNumber",
+      "FdGrp_Cd": "foodGroupCode",
+      "Long_Desc": "longDescription",
+      "Shrt_Desc": "shortDescription",
+      "ComName": "commonName",
+      "ManufacName": "manufacturerName",
+      "Survey": "isSurveyAvailable",
+      "Ref_desc": "refuseDescription",
+      "Refuse": "refusePercentage",
+      "SciName": "scientificName",
+      "N_Factor": "nitrogenFactor",
+      "Pro_Factor": "proteinFactor",
+      "Fat_Factor": "fatFactor",
+      "CHO_Factor": "carbFactor"
+    }
+  },
+  "FD_GROUP": {
+    "name": "foodGroup",
+    "columns": {
+      "FdGrp_Cd": "foodGroupCode",
+      "FdGrp_Desc": "foodGroupDescription"
     }
   }
 }
