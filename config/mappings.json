@@ -24,5 +24,12 @@
       "FdGrp_Cd": "foodGroupCode",
       "FdGrp_Desc": "foodGroupDescription"
     }
+  },
+  "LANGUAL": {
+    "name": "langualLink",
+    "columns": {
+      "NDB_No": "ndbNumber",
+      "Factor_Code": "factorCode"
+    }
   }
 }
