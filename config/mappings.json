@@ -26,7 +26,7 @@
     }
   },
   "LANGUAL": {
-    "name": "langualLink",
+    "name": "langualFactorLink",
     "columns": {
       "NDB_No": "ndbNumber",
       "Factor_Code": "factorCode"
