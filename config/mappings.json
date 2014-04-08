@@ -31,5 +31,12 @@
       "NDB_No": "ndbNumber",
       "Factor_Code": "factorCode"
     }
+  },
+  "LANGDESC": {
+    "name": "langualFactorDescription",
+    "columns": {
+      "Factor_Code": "factorCode",
+      "Description": "description"
+    }
   }
 }
