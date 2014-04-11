@@ -13,14 +13,6 @@ matter what options are selected, a sqlite3 database is created. After the
 database is created, if --db-only isn't passed as an argument, then the JSON
 document will be created as well.
 
-## TODO
-
-Logic:
-- For each DB, query for fields with key and add as object within food object
-- From each food, use the mappings file to convert the built object
-- Add on additional markup for ES query
-- Query ES
-
 ## Structure
 
 ```json
