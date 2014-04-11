@@ -1,4 +1,8 @@
-usda-sr-parser
+# UNDER CONSTURCTION
+
+Please mind the old code, poor documentation, and overall scruff. Release date
+for a more sane version is set for mid May. Please let me know if you have
+questions, comments, or requests for the finished product.
 
 ### usda-sr-parser
 
