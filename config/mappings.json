@@ -72,5 +72,12 @@
       "Num_Dec": "numDecimalPlaces",
       "SR_Order": "srOrder"
     }
+  },
+  "SRC_CD": {
+    "name": "sourceCode",
+    "columns": {
+      "Src_Cd": "sourceCode",
+      "SrcCd_Desc": "sourceCodeDescription"
+    }
   }
 }
