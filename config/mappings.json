@@ -116,5 +116,19 @@
       "Nutr_No": "nutrientNumber",
       "DataSrc_ID": "dataSourceID"
     }
+  },
+  "DATA_SRC": {
+    "name": "dataSource",
+    "columns": {
+      "DataSrc_ID": "dataSourceID",
+      "Authors": "authors",
+      "title": "title",
+      "Year": "year",
+      "Journal": "journal",
+      "Vol_City": "volumeCity",
+      "Issue_State": "issueState",
+      "Start_Page": "startPage",
+      "End_Page": "endPage"
+    }
   }
 }
