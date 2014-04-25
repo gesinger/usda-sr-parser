@@ -108,5 +108,13 @@
       "Nutr_No": "nutrientNumber",
       "Footnt_Txt": "text"
     }
+  },
+  "DATASRCLN": {
+    "name": "dataSourceLink",
+    "columns": {
+      "NDB_No": "ndbNumber",
+      "Nutr_No": "nutrientNumber",
+      "DataSrc_ID": "dataSourceID"
+    }
   }
 }
