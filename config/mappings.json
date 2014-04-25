@@ -79,5 +79,12 @@
       "Src_Cd": "sourceCode",
       "SrcCd_Desc": "sourceCodeDescription"
     }
+  },
+  "DERIV_CD": {
+    "name": "derivationCode",
+    "columns": {
+      "Deriv_Cd": "derivationCode",
+      "Deriv_Desc": "derivationCodeDescription"
+    }
   }
 }
