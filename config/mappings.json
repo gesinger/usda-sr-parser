@@ -38,5 +38,28 @@
       "Factor_Code": "factorCode",
       "Description": "description"
     }
+  },
+  "NUT_DATA": {
+    "name": "nutritionData",
+    "columns": {
+      "NDB_No": "ndbNumber",
+      "Nutr_No": "nutrientNumber",
+      "Nutr_Val": "nutrientValue",
+      "Num_Data_Pts": "numDataPoints",
+      "Std_Error": "standardError",
+      "Src_Cd": "sourceCode",
+      "Deriv_Cd": "derivationCode",
+      "Ref_NDB_No": "referencedNDBNumber",
+      "Add_Nutr_Mark": "isFortified",
+      "Num_Studies": "numStudies",
+      "Min": "minValue",
+      "Max": "maxValue",
+      "DF": "degreesOfFreedom",
+      "Low_EB": "lowerErrorBound",
+      "Up_EB": "upperErrorBound",
+      "Stat_cmt": "statisticalComment",
+      "AddMod_Date": "lastModifiedDate",
+      "CC": "confidenceCode"
+    }
   }
 }
