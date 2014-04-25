@@ -98,5 +98,15 @@
       "Num_Data_Pts": "numDataPoints",
       "Std_Dev": "standardDeviation"
     }
+  },
+  "FOOTNOTE": {
+    "name": "footnote",
+    "columns": {
+      "NDB_No": "ndbNumber",
+      "Footnt_No": "sequenceNumber",
+      "Footnt_Type": "type",
+      "Nutr_No": "nutrientNumber",
+      "Footnt_Txt": "text"
+    }
   }
 }
