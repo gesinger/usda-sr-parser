@@ -86,5 +86,17 @@
       "Deriv_Cd": "derivationCode",
       "Deriv_Desc": "derivationCodeDescription"
     }
+  },
+  "WEIGHT": {
+    "name": "weight",
+    "columns": {
+      "NDB_No": "ndbNumber",
+      "Seq": "sequenceNumber",
+      "Amount": "amount",
+      "Msre_Desc": "description",
+      "Gm_Wgt": "grams",
+      "Num_Data_Pts": "numDataPoints",
+      "Std_Dev": "standardDeviation"
+    }
   }
 }
