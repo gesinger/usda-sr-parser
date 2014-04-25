@@ -61,5 +61,16 @@
       "AddMod_Date": "lastModifiedDate",
       "CC": "confidenceCode"
     }
+  },
+  "NUTR_DEF": {
+    "name": "nutrientDefinition",
+    "columns": {
+      "Nutr_No": "nutrientNumber",
+      "Units": "units",
+      "Tagname": "tagname",
+      "NutrDesc": "nutrientDescription",
+      "Num_Dec": "numDecimalPlaces",
+      "SR_Order": "srOrder"
+    }
   }
 }
