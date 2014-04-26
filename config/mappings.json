@@ -122,7 +122,7 @@
     "columns": {
       "DataSrc_ID": "dataSourceID",
       "Authors": "authors",
-      "title": "title",
+      "Title": "title",
       "Year": "year",
       "Journal": "journal",
       "Vol_City": "volumeCity",
