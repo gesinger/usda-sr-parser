@@ -109,7 +109,7 @@
       "Footnt_Txt": "text"
     }
   },
-  "DATASRCLN": {
+  "DATSRCLN": {
     "name": "dataSourceLink",
     "columns": {
       "NDB_No": "ndbNumber",
