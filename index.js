@@ -16,10 +16,15 @@ if (!srDir) {
   commander.help();
 }
 
+var fillTables = commander.fillTables;
+if (fillTables) {
+  fillTables = JSON.parse(fillTables);
+}
+
 var creator = new creator(srDir);
 creator.generate(
   commander.sqliteDb,
   commander.reuseDb,
-  JSON.parse(commander.fillTables),
+  fillTables,
   commander.esExport,
   commander.mappingsFile);
