@@ -28,7 +28,8 @@
     "sqlite3-transactions": "0.0.x",
     "async": "0.6.x",
     "sequelize": "2.0.x",
-    "lodash": "2.4.x"
+    "lodash": "2.4.x",
+    "multimeter": "0.1.x"
   },
   "license": "MIT",
   "engines": {
