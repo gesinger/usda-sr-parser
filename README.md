@@ -13,6 +13,16 @@ matter what options are selected, a sqlite3 database is created. After the
 database is created, if --db-only isn't passed as an argument, then the JSON
 document will be created as well.
 
+### TODO
+
+1. Remove constants file
+2. Remove structure from README
+3. Update README
+4. Make config passable
+5. Add in commented datatypes in objectifier
+6. Check if booleans are working
+7. Change objectifier to use mappings appropriately
+
 ## Structure
 
 ```json
