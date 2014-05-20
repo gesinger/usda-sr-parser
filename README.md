@@ -13,15 +13,16 @@ matter what options are selected, a sqlite3 database is created. After the
 database is created, if --db-only isn't passed as an argument, then the JSON
 document will be created as well.
 
+### Sample Commands
+
+time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --fill-tables '["DATSRCLN"]' --reuse-db
+time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --reuse-db
+
 ### TODO
 
-1. Remove constants file
-2. Remove structure from README
-3. Update README
-4. Make config passable
-5. Add in commented datatypes in objectifier
-6. Check if booleans are working
-7. Change objectifier to use mappings appropriately
-
-## Structure
-
+1. Remove structure from README
+2. Update README
+3. Make config passable
+4. Add in commented datatypes in objectifier
+5. Check if booleans are working
+6. Change objectifier to use mappings appropriately
