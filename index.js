@@ -22,9 +22,10 @@ if (fillTables) {
 }
 
 var creator = new creator(srDir);
-creator.generate(
-  commander.sqliteDb,
-  commander.reuseDb,
-  fillTables,
-  commander.esExport,
-  commander.mappingsFile);
+creator.generate({
+  dbPath: commander.sqliteDb,
+  reuseDb: commander.reuseDb,
+  fillTables: fillTables,
+  esExportPath: commander.esExport,
+  mappingsFilePath: commander.mappingsFile // TODO use
+});
