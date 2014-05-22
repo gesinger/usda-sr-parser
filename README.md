@@ -20,9 +20,9 @@ time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --reuse
 
 ### TODO
 
-1. Remove structure from README
-2. Update README
-3. Make config passable
-4. Add in commented datatypes in objectifier
-5. Check if booleans are working
-6. Change objectifier to use mappings appropriately
+1. Update README
+2. Make config passable
+3. Add in commented datatypes in objectifier
+4. Check if booleans are working
+5. Change objectifier to use mappings appropriately
+6. More orderly generate and resolveDB parameters
