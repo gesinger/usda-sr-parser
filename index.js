@@ -27,5 +27,5 @@ creator.generate({
   reuseDb: commander.reuseDb,
   fillTables: fillTables,
   esExportPath: commander.esExport,
-  mappingsFilePath: commander.mappingsFile // TODO use
+  mappingsFilePath: commander.mappingsFile
 });
