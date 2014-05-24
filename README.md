@@ -25,4 +25,3 @@ time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --reuse
 3. Add in commented datatypes in objectifier
 4. Check if booleans are working
 5. Change objectifier to use mappings appropriately
-6. More orderly generate and resolveDB parameters
