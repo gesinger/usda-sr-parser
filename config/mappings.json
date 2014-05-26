@@ -47,8 +47,8 @@
       "Nutr_Val": "nutrientValue",
       "Num_Data_Pts": "numDataPoints",
       "Std_Error": "standardError",
-      "Src_Cd": "sourceCode",
-      "Deriv_Cd": "derivationCode",
+      "Src_Cd": "sourceCodeId",
+      "Deriv_Cd": "derivationCodeId",
       "Ref_NDB_No": "referencedNDBNumber",
       "Add_Nutr_Mark": "isFortified",
       "Num_Studies": "numStudies",
@@ -76,15 +76,15 @@
   "SRC_CD": {
     "name": "sourceCode",
     "columns": {
-      "Src_Cd": "sourceCode",
-      "SrcCd_Desc": "sourceCodeDescription"
+      "Src_Cd": "code",
+      "SrcCd_Desc": "description"
     }
   },
   "DERIV_CD": {
     "name": "derivationCode",
     "columns": {
-      "Deriv_Cd": "derivationCode",
-      "Deriv_Desc": "derivationCodeDescription"
+      "Deriv_Cd": "code",
+      "Deriv_Desc": "description"
     }
   },
   "WEIGHT": {
