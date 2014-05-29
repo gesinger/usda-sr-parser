@@ -33,7 +33,7 @@
     }
   },
   "LANGDESC": {
-    "name": "langualFactorDescription",
+    "name": "langualFactor",
     "columns": {
       "Factor_Code": "factorCode",
       "Description": "description"
