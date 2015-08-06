@@ -1,10 +1,4 @@
-# UNDER CONSTURCTION
-
-Please mind the old code, poor documentation, and overall scruff. Release date
-for a more sane version is set for mid May. Please let me know if you have
-questions, comments, or requests for the finished product.
-
-### usda-sr-parser
+# usda-sr-parser
 
 A node.js script to parse the USDA's standard reference.
 
@@ -18,9 +12,7 @@ document will be created as well.
 time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --fill-tables '["DATSRCLN"]' --reuse-db
 time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --reuse-db
 
-### TODO
+### Notes
 
-1. Update README
-2. Add in commented datatypes in objectifier
-3. Check if booleans are working
-4. Convert binds to use closures
+Paths must be absolute. A table name can't be the same as one of the column
+names (see source code and derivation code)
