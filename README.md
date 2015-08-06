@@ -9,8 +9,10 @@ document will be created as well.
 
 ### Sample Commands
 
+```bash
 time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --fill-tables '["DATSRCLN"]' --reuse-db
 time node index.js --sr-dir sr26/ --sqlite-db sr.db --es-export temp.out --reuse-db
+```
 
 ### Notes
 
